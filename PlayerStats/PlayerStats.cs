@@ -76,7 +76,7 @@ namespace PlayerStats
             if (playerSessionId[player.Index].Length == 0)
                 return;
 
-            Console.WriteLine(playerDb.Query("UPDATE " + dbPrefix + "PlayerLog set Logout=@1 where SessionId= @0 and Logout is null", playerSessionId[player.Index], DateTime.Now.ToString("G")));
+            Console.WriteLine(playerDb.Query("UPDATE " + dbPrefix + "PlayerLog set Logout=@1 where SessionId= @0 and Logout is null", playerSessionId[player.Index], DateTime.Now));
             playerSessionId[player.Index] = "";
 
         }
@@ -172,7 +172,7 @@ namespace PlayerStats
             }
 
             playerSessionId[player.Index] = Guid.NewGuid().ToString("N");
-            playerDb.Query("INSERT INTO " + dbPrefix + "PlayerLog (SessionId, Name, UUID, Login, Logout) VALUES (@0, @1, @2, @3, null)", playerSessionId[player.Index], player.Name, player.UUID, DateTime.Now.ToString("G"));
+            playerDb.Query("INSERT INTO " + dbPrefix + "PlayerLog (SessionId, Name, UUID, Login, Logout) VALUES (@0, @1, @2, @3, null)", playerSessionId[player.Index], player.Name, player.UUID, DateTime.Now);
         }
 
         private void UpdateTimerOnElapsed(object sender, ElapsedEventArgs elapsedEventArgs)
@@ -180,7 +180,7 @@ namespace PlayerStats
             TShockAPI.TShock.Log.ConsoleInfo(" Player Stats: {0} players ({1})", TShock.Utils.ActivePlayers(), TShock.Config.MaxSlots);
             playerDb.Query(
                 "INSERT INTO " + dbPrefix + "PlayerStats (Timestamp, UniquePlayers, ActivePlayers, MaxPlayers) VALUES (@0, @1, @2, @3)",
-                DateTime.Now.ToString("G"), 0, TShock.Utils.ActivePlayers(), TShock.Config.MaxSlots);
+                DateTime.Now, 0, TShock.Utils.ActivePlayers(), TShock.Config.MaxSlots);
 
             joinedIPs.Clear();
             playerTimeInterval = DateTime.Now.ToString("G");
