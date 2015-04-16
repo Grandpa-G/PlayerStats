@@ -1,0 +1,7 @@
+\\server\c\TShock\ServerPlugins\PlayerStats.dll
+\\server\c\TShock\ServerPlugins\PlayerStats.pdb
+C:\Users\grimesr\workspace\Github\PlayerStats\PlayerStats\obj\Debug\PlayerStats.csprojResolveAssemblyReference.cache
+C:\Users\grimesr\workspace\Github\PlayerStats\PlayerStats\obj\Debug\PlayerStats.Properties.Resources.resources
+C:\Users\grimesr\workspace\Github\PlayerStats\PlayerStats\obj\Debug\PlayerStats.csproj.GenerateResource.Cache
+C:\Users\grimesr\workspace\Github\PlayerStats\PlayerStats\obj\Debug\PlayerStats.dll
+C:\Users\grimesr\workspace\Github\PlayerStats\PlayerStats\obj\Debug\PlayerStats.pdb

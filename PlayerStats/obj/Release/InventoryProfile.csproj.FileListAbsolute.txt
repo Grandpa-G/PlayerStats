@@ -1,0 +1,16 @@
+c:\users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\bin\Release\InventoryProfile.dll
+c:\users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\bin\Release\InventoryProfile.pdb
+c:\users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\bin\Release\HttpServer.dll
+c:\users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\bin\Release\Mono.Data.Sqlite.dll
+c:\users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\bin\Release\MySql.Data.dll
+c:\users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\bin\Release\MySql.Web.dll
+c:\users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\bin\Release\Newtonsoft.Json.dll
+c:\users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\bin\Release\TerrariaServer.exe
+c:\users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\bin\Release\TShockAPI.dll
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\InventoryProfile.csprojResolveAssemblyReference.cache
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\InventoryProfile.Properties.Resources.resources
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\InventoryProfile.csproj.GenerateResource.Cache
+\\server\c\TShock\ServerPlugins\InventoryProfile.dll
+\\server\c\TShock\ServerPlugins\InventoryProfile.pdb
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\InventoryProfile.dll
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\InventoryProfile.pdb

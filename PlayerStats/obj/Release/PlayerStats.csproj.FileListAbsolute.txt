@@ -1,0 +1,7 @@
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\PlayerStats.csprojResolveAssemblyReference.cache
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\PlayerStats.Properties.Resources.resources
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\PlayerStats.csproj.GenerateResource.Cache
+\\server\c\TShock\ServerPlugins\PlayerStats.dll
+\\server\c\TShock\ServerPlugins\PlayerStats.pdb
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\PlayerStats.dll
+C:\Users\grimesr\workspace\Github\InventoryProfile\InventoryProfile\obj\Release\PlayerStats.pdb
